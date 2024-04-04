@@ -36,6 +36,7 @@ main() {
   # Dracula Color Pallette
   dark_gray='#090618'
   gray='#1f1f28'
+  light_gray='#727169'
   red='#c34043'
   brred='#e82424'
   green='#76946a'
@@ -131,7 +132,7 @@ main() {
   else
     tmux set-option -g pane-active-border-style "fg=${dark_purple}"
   fi
-  tmux set-option -g pane-border-style "fg=${gray}"
+  tmux set-option -g pane-border-style "fg=${light_gray}"
 
   # message styling
   tmux set-option -g message-style "bg=${gray},fg=${white}"
