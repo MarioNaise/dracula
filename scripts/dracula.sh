@@ -34,17 +34,24 @@ main() {
   show_empty_plugins=$(get_tmux_option "@dracula-show-empty-plugins" true)
 
   # Dracula Color Pallette
-  white='#f8f8f2'
-  gray='#44475a'
-  dark_gray='#282a36'
-  light_purple='#bd93f9'
-  dark_purple='#6272a4'
-  cyan='#8be9fd'
-  green='#50fa7b'
-  orange='#ffb86c'
-  red='#ff5555'
-  pink='#ff79c6'
-  yellow='#f1fa8c'
+  dark_gray='#090618'
+  gray='#1f1f28'
+  red='#c34043'
+  brred='#e82424'
+  green='#76946a'
+  brgreen='#98bb6c'
+  yellow='#c0a36e'
+  bryellow='#e6c384'
+  blue='#7e9cd8'
+  brblue='#7fb4ca'
+  dark_purple='#957fb8'
+  light_purple='#938aa9'
+  cyan='#6a9589'
+  brcyan='#7aa89f'
+  white='#c8c093'
+  brwhite='#dcd7ba'
+  orange='#ff9e64'
+  pink='#d27e99'
 
   # Handle left icon configuration
   case $show_left_icon in
